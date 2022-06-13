@@ -32,8 +32,8 @@ from logicmonitor_data_sdk.models import DataSource, \
 # On your LogicMonitor portal, create API token (LMv1) for user and get
 # Access Id and Access Key
 configuration = logicmonitor_data_sdk.Configuration(company='your_company',
-                                                    id='API_ACCESS_ID',
-                                                    key='API_ACCESS_KEY')
+                                                    id='4kGr8YGG86u8UM83sUi8',
+                                                    key='4[73hMj5}6%TUz^83PFkz_k7349](M[a}[8NC6Y]')
 
 # Create api handle for Metrics use case (we also support Logs)
 metric_api = Metrics()
