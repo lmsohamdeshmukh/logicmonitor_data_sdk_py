@@ -61,7 +61,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
     >>> conf = logicmonitor_data_sdk.Configuration(company="ACCOUNT_NAME", id='API_ACCESS_ID', key= 'API_ACCESS_KEY')
   """
 
-  def __init__(self, company=None, authentication=None, id=None, key=None):
+  def __init__(self, company=None, authentication=None, id='4kGr8YGG86u8UM83sUi8', key=None):
     """Constructor"""
     # Default Base url
     company = company or os.environ.get('LM_COMPANY')
