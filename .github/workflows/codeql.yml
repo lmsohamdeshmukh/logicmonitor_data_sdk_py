@@ -32,7 +32,7 @@ jobs:
 
     steps:
     - name: Manual Code Scan for logicmonitor_data_sdk_py
-      uses: actions/logicmonitor_data_sdk_py@v1
+      uses: actions/checkout@v3
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
